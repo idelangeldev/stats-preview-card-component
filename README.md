@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mexwebdev21/stats-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/mexwebdev21/stats-preview-card-component]
+- Live Site URL: [https://preview-component.netlify.app]
 
 ## My process
 
@@ -51,5 +51,5 @@ I learned to read Figma files better.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/mexwebdev2121)
+- Frontend Mentor - [@mexwebdev21](https://www.frontendmentor.io/profile/mexwebdev21)
+- Twitter - [@mexwebdev21](https://www.twitter.com/mexwebdev2121)
