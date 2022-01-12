@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  background-color: #090b1a;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.666666667;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  @media only screen and (max-width: 44.5em) {
+    body {
+      height: auto; } }
+
+.heading-1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.222222222; }
+  @media only screen and (max-width: 55em) {
+    .heading-1 {
+      font-size: 2.8rem; } }
+  .heading-1--accent {
+    color: #aa5cdb; }
+
+.heading-2 {
+  font-size: 2.4rem;
+  font-weight: 700; }
+
+.paragraph {
+  color: rgba(255, 255, 255, 0.75); }
+
+.subheading {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+.card {
+  max-width: 110rem;
+  display: grid;
+  grid-template-columns: 52.35fr 48.65fr;
+  margin: 8.8rem 2.4rem; }
+  @media only screen and (max-width: 44.5em) {
+    .card {
+      grid-template-columns: 1fr; } }
+  .card__text-box {
+    background-color: #1b1938;
+    display: flex;
+    flex-direction: column;
+    gap: 6.8rem;
+    padding: 7.1rem 11.4rem 5.9rem 7.2rem;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px; }
+    @media only screen and (max-width: 67.5em) {
+      .card__text-box {
+        padding: 5.1rem; } }
+    @media only screen and (max-width: 55em) {
+      .card__text-box {
+        padding: 4rem 3.6rem; } }
+    @media only screen and (max-width: 44.5em) {
+      .card__text-box {
+        text-align: center;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 8px;
+        gap: 4rem; } }
+  .card__text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem; }
+  .card__stats {
+    display: flex;
+    gap: 5.9rem; }
+    @media only screen and (max-width: 44.5em) {
+      .card__stats {
+        justify-content: center; } }
+    @media only screen and (max-width: 35em) {
+      .card__stats {
+        flex-direction: column;
+        gap: 2.4rem; } }
+  .card__img-box {
+    background-image: linear-gradient(to right, rgba(170, 92, 219, 0.75), rgba(170, 92, 219, 0.75)), url(../images/image-header-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px; }
+    @media only screen and (max-width: 44.5em) {
+      .card__img-box {
+        height: 24rem;
+        grid-row: 1 / 2;
+        background-position: unset;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 8px; } }
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center; }
+  .attribution__link {
+    color: #3e52a3; }
